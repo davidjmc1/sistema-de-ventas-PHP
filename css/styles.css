@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+   
+    font-family: 'Arial';
+    font-size:25px;
+    letter-spacing:1px;
+    width:100%;
+    background-color:rgba(8, 8, 8, 0.8);
+    padding:20px;
+    color:white;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#contenedor{
+
+width:100%;
+height:100vh;
+display:-webkit-flex;
+display:-moz-flex;
+display:-ms-flex;
+display:flex;
+justify-content: center;
+align-items: center;
+background-image:url(img/log.jpg);
+}
+#contenedor form{
+    width: 400px;
+    
+border-radius: 20px;
+background: rgba(53, 53, 53, 0.8);
+
+border: 1px solid;
+border-top-color: rgba(53, 53, 53, 0.8);
+border-left-color: rgba(53, 53, 53, 0.8);
+border-bottom-color: rgba(60,60,60,.4);
+border-right-color: rgba(60,60,60,.4);
+}
+#contenedor form img{
+    margin:15px auto;
+    text-align:center;
+    display: block;
+    width: 150px;
+    height: 150px;
+    
+}
+
+#contenedor form input{
+    width: 90%;
+    padding:7px;
+    display:block;
+    font-size: 16pt;
+    margin:30px auto;
+    border-radius:5px;
+    border:1px solid #CCC;
+    text-align:center;
+
+}
+#contenedor form input[type="submit"]{
+    width: 30%;
+    background: rgb(10, 0, 100);
+    padding:15px;
+    color:white;
+    border:0;
+    cursor: pointer;
+}
+.alert{
+    font-family: 'Arial';
+    font-size:15px;
+    text-align: center;
+    color:red;
+
+}
+
+
+
